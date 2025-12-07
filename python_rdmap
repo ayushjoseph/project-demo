@@ -300,7 +300,7 @@
 # print(email.expandtabs(100))  #email enna string 100 spaces il expandtabs aakkiyaanu ithil
 # print(email.center(100))  #email enna string 100 spaces il center aakkiyaanu ithil
 
-
+                          # formatting numbers in python /format specifiers in python
 
 price1 =3.134545
 # price2 =-9785.5467

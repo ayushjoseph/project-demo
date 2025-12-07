@@ -1,26 +1,44 @@
 
-# # #strings
+                 # # #strings
+
+
 # # first_name = "Bro"
 # # food = "pizza"
 # # print(f"Hello {first_name}")
 # # print(f"My favourite is {food}")
 
 
- #integers
+
+
+
+
+
+                   #integers
+
+
 # age = 25
 # quantity = 3
 # print(f"you are {age} years old")
 # print (f"your boxes are {quantity}")
 
 
-#boolean exampe 1
+
+
+
+               #boolean exampe 1
+
 
 # is_student = False
-
 # if is_student:
 #     print(f"You are a student ")
 # else:
 #     print(f"You are not a student ")
+
+
+
+
+
+
 
 
         # boolean example 2
@@ -32,15 +50,29 @@
 # else:
 #         print("The item is not for sale")    
               
+
+
+
+
+
               
-              
-#Type casting              
+                 #Type casting       
+
  #The proces of converting a value of  one data type to another
               #string to interger vice versa ,like that float ,boolean
               
-              #Explicit type casting and implicit type casting
+       #Explicit type casting and implicit type casting
               
-              # Explicit type casting--
+         
+
+
+
+
+
+
+                         # Explicit type casting--
+
+
 # name = "Bro"
 # age =21
 # gpa =8.0
@@ -52,7 +84,10 @@
 # print((age))
 
 
-# user input class
+
+
+
+                   # user input class
     
 # name = input ("Enter your name :")
 # age = int(input("Enter your age :"))
@@ -72,7 +107,10 @@
 
 
 
-# area problemm user input--
+
+
+
+                         # area problemm user input--
 
 # length = float(input("Enter the length of the rectangle : "))
 # width =float(input ("Enter the width of the rectangle : "))
@@ -83,7 +121,13 @@
 # print(f"The area of the rectangle is {area} cm^2")
 
 
-# Shopping cart
+
+
+
+
+
+
+                       # Shopping cart
 
 # item=input("What item would you like to buy?: ")
 # price = float(input("What is the price? :"))
@@ -96,7 +140,9 @@
 
 
 
-# Decision making if else satement
+
+
+                    # Decision making if else satement
 
 
 # age = int (input("Enter your age :"))
@@ -121,7 +167,12 @@
 
 
 
-#      booleans ifelse elif
+
+
+
+
+
+              #      booleans ifelse elif
 
 
 # for_sale =True
@@ -144,7 +195,12 @@
 #         print(f"Hello {name}")
 
 
-# calculator project 
+
+
+
+
+
+                        # calculator project 
 
 
         
@@ -162,8 +218,6 @@
 #      result = num1 * num2
 # elif operator == "/" :
 #      result = num1 / num2 
-     
-
 
 # else:
 #     print(f"The operator {operator} is invalid")
@@ -174,7 +228,10 @@
 
 
 
-# calculator project  ai version
+
+
+
+                         # calculator project  ai version
 
 
 # operator = input("Enter an operator (+ - * /): ")
@@ -198,7 +255,11 @@
 
 
 
-#indexing in pyton 
+
+
+
+                                             #indexing in pyton 
+
 # indexing =accesing elements of a sequence  using arrays []
 # credit_card_number = "123-456-7890"
  #print (credit_card_number[0]) 
@@ -232,7 +293,7 @@
 
 
 
-# ini nammal email slicer padikunnu
+                                   # ini nammal email slicer padikunnu
 
 
 
@@ -245,7 +306,10 @@
 
 
 
-# ini namukku string methods padikyam
+                                               # ini namukku string methods padikyam
+
+
+
 # string methods = built in functions that perform specific operations on strings
 # name = "bro code"
 # print(name.upper())  #upper case aakkiyaanu ithil
@@ -299,6 +363,16 @@
 # print(email.zfill(100))  #email enna string 100 spaces il zfill aakkiyaanu ithil
 # print(email.expandtabs(100))  #email enna string 100 spaces il expandtabs aakkiyaanu ithil
 # print(email.center(100))  #email enna string 100 spaces il center aakkiyaanu ithil
+
+
+
+
+
+
+
+
+
+
 
                           # formatting numbers in python /format specifiers in python
 

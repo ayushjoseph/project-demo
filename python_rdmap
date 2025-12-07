@@ -148,25 +148,25 @@
 
 
         
-operator = input("Enter an operator ( + - * /) : ")  
+# operator = input("Enter an operator ( + - * /) : ")  
 
-num1 = float(input("Enter the first number: "))
+# num1 = float(input("Enter the first number: "))
 
-num2 = float(input("Enter the second number:"))
+# num2 = float(input("Enter the second number:"))
 
-if operator == "+"  :   
-    result = num1 + num2
-elif operator == "-" :
-    result = num1 - num2
-elif operator == "*" :
-     result = num1 * num2
-elif operator == "/" :
-     result = num1 / num2 
+# if operator == "+"  :   
+#     result = num1 + num2
+# elif operator == "-" :
+#     result = num1 - num2
+# elif operator == "*" :
+#      result = num1 * num2
+# elif operator == "/" :
+#      result = num1 / num2 
      
 
 
-else:
-    print(f"The operator {operator} is invalid")
+# else:
+#     print(f"The operator {operator} is invalid")
 
 
 
@@ -191,3 +191,128 @@ else:
 #     result = num1 / num2
     
 # print(result)
+
+
+
+
+
+
+
+#indexing in pyton 
+# indexing =accesing elements of a sequence  using arrays []
+# credit_card_number = "123-456-7890"
+ #print (credit_card_number[0]) 
+
+
+#we can make it upto like (start:end:step) ithennu parnjal  ippo example [0:4] aanenkil ithu "123-456-7890"   ile 1-3 vare ulla show pankeduthu kaanikum
+
+#print(credit_card_number [0:5])
+#ithil ini [0:4] ile 0 itileum athu asume chytholu like[:4] aand ippo [5:] anel 5 onwards aal inndex will workout 
+
+
+#[-1] ittl lastinulle kaanikum
+#print(credit_card_number [-1])
+
+#step enna option that means if [::2] aanenkil aa 2 inte set upping indello athu 2 no vech appo  3,5,70 angney yokke 2 index olla ellam add adda chythu povum
+
+
+#print(credit_card_number [::2])   #ithil index nokiyela marich 2 positioning add chythu print aakiyaanu povaney  so that startingf 1 thottu thudangum add chyan inc 1 ulpadey print chythy
+
+# last_digit = credit_card_number[-4:]#ini bankile okke pole XXXX-XXXX-3456 angney print chybu without user input
+# print(f"XXXX-XXXX-{last_digit}")   #so inganey engane vannathu ennu choicha we are like  aadhyam define cheyanma last idgit aanu namak vendathennu athinanu -4 ittey then we are like implelemnted that fn defined to the print using as an input defineing  under f ""intakathu by implememnting predefined xxx  theen its dne!!!
+
+
+
+# credit_card_number=credit_card_number[::-1]  #ingney varumbo purakeenu array index calculate chyum so u cn just go uno reverse
+# print(credit_card_number)
+
+
+
+
+
+
+
+# ini nammal email slicer padikunnu
+
+
+
+# email = input("Enter your email address : ")
+# index =email.index("@")  #ithil index enna fn use chythu namukku @inte position kittum
+# username = email[:index]  #username enna variable il namukku email inte starting ninnu @ vare ulla ellam kittum
+# domain = email[index + 1:]  #domain enna variable il namukku @ ninnu kazhinjath ellam kittum so athil +1 cheythathanu @ kazhinjath ninnu thudangum ennathu karanam
+# print(f"Your Username is : {username} and Your domain is : {domain}")
+
+
+
+
+# ini namukku string methods padikyam
+# string methods = built in functions that perform specific operations on strings
+# name = "bro code"
+# print(name.upper())  #upper case aakkiyaanu ithil
+# print(name.lower())  #lower case aakkiyaanu ithil
+# print(name.title())  #title case aakkiyaanu ithil
+# print(name.count("o"))  #name il o enna alphabet ethu vare undennathu count chythu kaanikum
+# print(name.replace("o","a"))  #name il o enna alphabet a enna alphabet aakkiyaanu ithil
+# print(name.find("c"))  #name il c enna alphabet ethu index il aanu ennathu kaanikum
+# print(len(name))  #name il ethu vare alphabets undennathu kaanikum
+# print(name.index("c"))  #name il c enna alphabet ethu index il aanu ennathu kaanikum
+# print("   bro   ".strip())  #string il ullathil ninnum spaces remove chythu kaanikum
+# print("   bro   ".lstrip())  #string il ullathil ninnum left side spaces remove chythu kaanikum
+# print("   bro   ".rstrip())  #string il ullathil ninnum right side spaces remove chythu kaanikum      
+# print(name.startswith("b"))  #name enna string b enna alphabet il thudangunnu ennathu kaanikum
+# print(name.endswith("e"))  #name enna string e enna alphabet il avasanikkunnu ennathu kaanikum
+# email = "
+# print(email.endswith(".com"))  #email enna string .com enna alphabet il avasanikkunnu ennathu kaanikum
+# print(email.endswith(".org"))  #email enna string .org enna alphabet il avasanikkunnu ennathu kaanikum
+# print(email.endswith(".edu"))  #email enna string .edu enna alphabet il avasanikkunnu ennathu kaanikum
+# print(email.endswith(".net"))  #email enna string .net enna alphabet il avasanikkunnu ennathu kaanikum
+# print(email.capitalize())  #email enna string il first alphabet capital aakkiyaanu ithil
+# print(email.isalnum())  #email enna string il alphabetsum numbersum mathram undennathu kaanikum
+# print(email.isalpha())  #email enna string il alphabets mathram undennathu kaanikum
+# print(email.isdigit())  #email enna string il numbers mathram undennathu kaanikum
+# print(email.isspace())  #email enna string il spaces mathram undennathu kaanikum
+# print(email.split("@"))  #email enna string @ enna alphabet il split chythu kaanikum
+# print(email.join(["hello","world"]))  #email enna string hello and world enna strings join chythu kaanikum
+# print(email.center(50))  #email enna string 50 spaces il center aakkiyaanu ithil      
+# print(email.zfill(50))  #email enna string 50 spaces il zfill aakkiyaanu ithil
+# print(email.expandtabs(50))  #email enna string 50 spaces il expandtabs aakkiyaanu ithil
+# print(email.swapcase())  #email enna string il uppercase and lowercase swap chythu kaanikum
+# print(email.partition("@"))  #email enna string @ enna alphabet il partition chythu kaanikum
+# print(email.rpartition("@"))  #email enna string @ enna alphabet il right side ninnu partition chythu kaanikum
+# print(email.rsplit("@"))  #email enna string @ enna alphabet il right side ninnu split chythu kaanikum
+# print(email.translate(str.maketrans("a","b")))  #email enna string il a enna alphabet b enna alphabet aakkiyaanu ithil
+# print(email.encode())  #email enna string il encode chythu kaanikum
+# print(email.decode())  #email enna string il decode chythu kaanikum
+# print(email.format())  #email enna string il format chythu kaanikum
+# print(email.format_map({"a":"b"}))  #email enna string il a enna alphabet b enna alphabet aakkiyaanu ithil
+# print(email.removeprefix("a"))  #email enna string il a enna prefix remove chythu kaanikum
+# print(email.removesuffix(".com"))  #email enna string il .com enna suffix remove chythu kaanikum        
+# print(email.isdecimal())  #email enna string il decimal numbers mathram undennathu kaanikum
+# print(email.isidentifier())  #email enna string il identifier mathram undennathu kaanikum
+# print(email.islower())  #email enna string il lowercase mathram undennathu kaanikum
+# print(email.isupper())  #email enna string il uppercase mathram undennathu kaanikum
+# print(email.ljust(50))  #email enna string 50 spaces il left just aakkiyaanu ithil
+# print(email.rjust(50))  #email enna string 50 spaces il right just aakkiyaanu ithil
+# print(email.maketrans("a","b"))  #email enna string il a enna alphabet b enna alphabet aakkiyaanu ithil
+# print(email.partition("."))  #email enna string . enna alphabet il partition chythu kaanikum
+# print(email.rpartition("."))  #email enna string . enna alphabet il right side ninnu partition chythu kaanikum
+# print(email.zfill(100))  #email enna string 100 spaces il zfill aakkiyaanu ithil
+# print(email.expandtabs(100))  #email enna string 100 spaces il expandtabs aakkiyaanu ithil
+# print(email.center(100))  #email enna string 100 spaces il center aakkiyaanu ithil
+
+
+
+price1 =3.134545
+# price2 =-9785.5467
+# price3 =12.34
+
+# print(f"price 1 is {price1:.2f}")  #ithil .2f ennaathu 2 decimal places vare mathram kaanikum ennathu
+# print(f"price 2 is {price2:.3f}")  #ithil .3f ennaathu 3 decimal places vare mathram kaanikum ennathu
+# print(f"price 3 is {price3:.1f}")  #ithil .1f ennaathu 1 decimal places vare mathram kaanikum ennathu 
+# rounding off numbers in python
+# number = 3.14159       
+# rounded_number = round(number, 2)  #ithil round enna fn use chythu number ne 2 decimal places vare round chythu kaanikum
+# print(rounded_number)
+
+# print(f"price 1 is ${price1:10}")  
+print(f"price 1 is ${price1:010}") 

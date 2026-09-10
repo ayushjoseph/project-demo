@@ -1,6 +1,5 @@
 
-                 # # #strings
-
+#                       # #strings
 
 # # first_name = "Bro"
 # # food = "pizza"
@@ -8,13 +7,7 @@
 # # print(f"My favourite is {food}")
 
 
-
-
-
-
-
-                   #integers
-
+                                #integers
 
 # age = 25
 # quantity = 3
@@ -22,26 +15,17 @@
 # print (f"your boxes are {quantity}")
 
 
-
-
-
-               #boolean exampe 1
-
+                        #boolean example 1
 
 # is_student = False
+
 # if is_student:
 #     print(f"You are a student ")
 # else:
 #     print(f"You are not a student ")
 
 
-
-
-
-
-
-
-        # boolean example 2
+                # boolean example 2
         
 # for_sale = False    
    
@@ -50,29 +34,15 @@
 # else:
 #         print("The item is not for sale")    
               
-
-
-
-
-
               
-                 #Type casting       
-
+              
+                        #Type casting
  #The proces of converting a value of  one data type to another
               #string to interger vice versa ,like that float ,boolean
               
-       #Explicit type casting and implicit type casting
+              #Explicit type casting and implicit type casting
               
-         
-
-
-
-
-
-
-                         # Explicit type casting--
-
-
+              # Explicit type casting--
 # name = "Bro"
 # age =21
 # gpa =8.0
@@ -84,10 +54,7 @@
 # print((age))
 
 
-
-
-
-                   # user input class
+                        # user input class
     
 # name = input ("Enter your name :")
 # age = int(input("Enter your age :"))
@@ -107,10 +74,7 @@
 
 
 
-
-
-
-                         # area problemm user input--
+                # area problemm user input--
 
 # length = float(input("Enter the length of the rectangle : "))
 # width =float(input ("Enter the width of the rectangle : "))
@@ -121,13 +85,7 @@
 # print(f"The area of the rectangle is {area} cm^2")
 
 
-
-
-
-
-
-
-                       # Shopping cart
+# Shopping cart
 
 # item=input("What item would you like to buy?: ")
 # price = float(input("What is the price? :"))
@@ -140,9 +98,7 @@
 
 
 
-
-
-                    # Decision making if else satement
+                # Decision making if else satement
 
 
 # age = int (input("Enter your age :"))
@@ -167,12 +123,7 @@
 
 
 
-
-
-
-
-
-              #      booleans ifelse elif
+                        #      booleans ifelse elif
 
 
 # for_sale =True
@@ -195,12 +146,7 @@
 #         print(f"Hello {name}")
 
 
-
-
-
-
-
-                        # calculator project 
+                # calculator project
 
 
         
@@ -218,6 +164,8 @@
 #      result = num1 * num2
 # elif operator == "/" :
 #      result = num1 / num2 
+     
+
 
 # else:
 #     print(f"The operator {operator} is invalid")
@@ -228,10 +176,7 @@
 
 
 
-
-
-
-                         # calculator project  ai version
+                # calculator project  ai version
 
 
 # operator = input("Enter an operator (+ - * /): ")
@@ -255,10 +200,7 @@
 
 
 
-
-
-
-                                             #indexing in pyton 
+                                        #indexing in pyton
 
 # indexing =accesing elements of a sequence  using arrays []
 # credit_card_number = "123-456-7890"
@@ -293,7 +235,7 @@
 
 
 
-                                   # ini nammal email slicer padikunnu
+                                                                # ini nammal email slicer padikunnu
 
 
 
@@ -306,8 +248,7 @@
 
 
 
-                                               # ini namukku string methods padikyam
-
+                                                        # ini namukku string methods padikyam
 
 
 # string methods = built in functions that perform specific operations on strings
@@ -365,18 +306,8 @@
 # print(email.center(100))  #email enna string 100 spaces il center aakkiyaanu ithil
 
 
-
-
-
-
-
-
-
-
-
-                          # formatting numbers in python /format specifiers in python
-
-price1 =3.134545
+                        # formatting numbers in python /format specifiers in python
+# price1 =3.134545
 # price2 =-9785.5467
 # price3 =12.34
 
@@ -388,5 +319,95 @@ price1 =3.134545
 # rounded_number = round(number, 2)  #ithil round enna fn use chythu number ne 2 decimal places vare round chythu kaanikum
 # print(rounded_number)
 
-# print(f"price 1 is ${price1:10}")  
-print(f"price 1 is ${price1:010}") 
+# print(f"price 1 is ${price1:10}")  #ithil 10 ennaathu total 10 spaces il price1 ne kaanikum ennathu
+# print(f"price 1 is ${price1:010}")  #ithil 010 ennaathu total 10 spaces il price1 ne kaanikum ennathu and leading zeros add chythu kaanikum
+# print(f"price 1 is ${price1:<10}") # nos adukki vekum normal aay
+# print(f"price 1 is ${price1:>10}")  # 10 space gap ittu set aakum
+
+# # print(f"price 1 is ${price1:^10}")  # center aayitkkuvannam
+# print(f"price 1 is ${price1:+}")  # positive sign koodi varum
+# print(f"price 1 is ${-price1:+}")  # negative sign koodi varum
+# print(f"price 1 is ${price1:-}")  # negative sign maathram varum
+# print(f"price 1 is ${price1:,}")  #ithil , enna athu thousands separator aakkiyaanu ithil
+# print(f"price 1 is ${-price1:,}")  #ithil , enna athu thousands separator aakkiyaanu ithil for negative numbers also
+
+
+
+
+
+
+
+
+
+                                                # while loops in python
+# while loop = a statement that allows code to be executed repeatedly based on a given condition
+# thett adichal veendum condition true aakum vare loop continue aakum
+# name =input("Enter your name :")
+# while name == "":
+#     print("You did not type in your name!")
+#     name = input("Enter your name :")
+
+# #     print(f"Hello {name}")
+
+
+
+# age= int(input("Enter your age :"))
+# while age <=0:
+#     print("Invalid age , please try again")
+#     age = int (input("Enter your age :"))
+# print(f"You are {age} years old")
+
+
+# food = input("Enter the food you like (q to quit):")
+
+# while not food == "q":
+#     print(f"you  like {food} !")
+#     food = input("Enter the food you like (q to quit):")
+# print("bye")
+
+
+                                                                #python compound interest calculator
+# principle =0
+# rate =0
+# time =0
+
+# while principle <=0:
+#     principle = float(input("Enter the principle amount: "))
+#     if principle <=0:
+#         print("Princple cannot be less than or equal to 0 , please try again")
+
+
+# while rate <=0:
+#     rate = float(input("Enter the interest rate : "))
+#     if rate<=0:
+#         print("Interest rate cannot be less than or equal to 0 , please try again")
+
+
+# while time <=0:
+#     time = int(input("Enter the time in years : "))
+#     if time <=0:
+#         print("Time cannot be less than or equal to 0 , please try again")
+
+# total = principle * pow( (1+rate/100),time)
+# print (f"Balance after {time} year/s: ₹{total :.2f}"   )
+
+#for loops in python
+#execute the certain block of code a fixed number of times
+#can iterate over a range,sequence ,strings
+# for x in range(1,11):
+#     print(x)
+# for x in reversed(range(1,11)):
+#     print(x)
+
+# # print("Happy New Year!")
+# credit_card_number = "1234-5678-9012-3456"
+# for x in credit_card_number:
+#     print(x)
+# for x in "bro code":
+#     print(x)
+
+# for x in range(10,21):
+#     if x == 13 :
+#        break
+#     else:
+#         print(x)
